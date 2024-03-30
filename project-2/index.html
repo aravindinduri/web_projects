@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_portfoio</title>
+    <link rel="icon" type="image/png" href="/projects/project-2/favicon.png">
+</head>
+
+<body onselect="return false" oncontextmenu="return false" onmousedown="return false">
+    <header class="header">
+        <span class="logo"> <img src="Logoo.png" class="logoImage" alt="logo"oncontextmenu="false"></span>
+        <nav class="navBar">
+            <ul class="header_items">
+                <li class="items"><a class="item-link" href="#frame1">Home</a></li>
+                <li class="items"><a class="item-link" href="#frame3">About</a></li>
+                <li class="items"><a class="item-link" href="#frame4">Work</a></li>
+                <li class="items"><a class="item-link" href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu" onclick="trans(),change()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="frame1" id="frame1">
+            <img class="dot_image" src="dm1.jpg">
+            <div class="data">
+                <p class="p1">_Hey</p>
+                <div class="animate">
+                    <span class="p2">I'm a</span>
+                    <span class="typeing"></span>
+                </div>
+                <a href=" https://www.fiverr.com/induriaravind">
+                    <button class="hire"> Hire me</button>
+                </a>
+                <a href="https://www.instagram.com/im_aravind._/">
+                    <button class="chat">lets's chat</button>
+                </a>
+            </div>
+        </div>
+        <div class="frame2" id="frame2">
+            <div class="parent">
+                <img class="back" src="bg2.png">
+                <img class="photo" src="Img2.png" alt="image">
+            </div>
+            
+        </div>
+        <div class="frame3" id="frame3">
+            <h3>About:</h3>
+            <p class="longpara">As a frontend developer, I take pride in my ability to transform complex concepts into
+                intuitive, visually appealing, and functional user interfaces. I am passionate about creating designs
+                that not only look great but also work seamlessly, providing users with a smooth and enjoyable
+                experience
+                My journey as a frontend developer began when I first discovered my love for technology and design.
+                Since then, I have dedicated myself to mastering the tools and technologies necessary to excel in this
+                field. I have extensive experience with HTML, CSS, JavaScript, React, and other frontend technologies,
+                which allow me to create responsive, mobile-friendly websites and applications that are optimized for
+                speed and accessibility.
+                One of my strengths is my attention to detail. I believe that even the smallest details can make a
+                significant difference in the user experience, and I always strive to ensure that every element of my
+                designs is functional, visually appealing, and aligned with the overall objectives of the project. I
+                understand the importance of user research, and I ensure to conduct an in-depth analysis to understand
+                the target audience and the requirements of the project. This helps me to create a design that resonates
+                with the users and fulfills the project's objectives.
+                creating exceptional user experiences through my designs. I believe that the frontend is the face of any
+                project, and it's my responsibility to ensure that it's not only beautiful but also functional and
+                accessible to everyone. I am committed to delivering high-quality work, and I am always willing to go
+                the extra mile to ensure that my clients are satisfied with my work</p>
+            <h4 class="whatIdo">
+                What I do :
+            </h4>
+            <div class="services">
+                <div class="card">
+                    <img src="cwrite.jpeg" class="card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">copywriting</h5>
+                        <p class="card-text">Copywriting is the act or occupation of writing text for the purpose of
+                            advertising or other forms of marketing. The product, called copy or sales copy, is written
+                            content that aims to increase brand awareness and ultimately persuade a person or group to
+                            take a particular action.</p>
+                        <a href="#" class="btn card-btn">view</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="devlop.png" class="card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">web Devlopment</h5>
+                        <p class="card-text">Web development is the work involved in developing a website for the
+                            Internet (World Wide Web) or an intranet (a private network). Web development can range from
+                            developing a simple single static page of plain text to complex web applications, electronic
+                            businesses, and social network services.</p>
+                        <a href="#" class="btn card-btn">View</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="blog.jpeg" class="card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogging</h5>
+                        <p class="card-text">A blog, short for weblog, is a frequently updated web page used for
+                            personal
+                            commentary or business content. Blogs are often interactive and include sections at the
+                            bottom of individual blog posts where readers can leave comments</p>
+                        <a href="#" class="btn card-btn">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="frame4" id="frame4">
+            <h3>Work:</h3>
+            <div class="slides">
+                <img src="project-1.png" class="projects" alt="#">
+                <a href="https://dasarathi.netlify.app/">
+                    <button class="visit">Visit</button>
+                </a>
+                <div class="caption">Tribute website for Dasarathi Krishnamacharya</div>
+            </div>
+            <div class="slides">
+                <img src="project.png" class="projects" alt="#">
+                <a href="#">
+                    <button class="visit">Visit</button>
+                </a>
+                <div class="caption">Projects-2</div>
+            </div>
+            <div class="slides">
+                <img src="project.png" class="projects" alt="#">
+                <a href="#">
+                    <button class="visit" >Visit</button>
+                </a>
+                <div class="caption">Project-3</div>
+            </div>
+            <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+            <span class="arrow next" onclick="controller(1)">&#10095;</span>
+        </div>
+    </div>
+    <footer id="footer">
+        <span class="copy">
+            <b class="forall">&#8704;</b>
+            <i>clashpen&copy;</i>
+        </span>
+        <div class="links">
+            <span class="con">Contact:</span>
+            <a class="smedia" href="https://www.facebook.com/chintu.enduri/"><img src="face.png"
+                    class="face">facebook</a>
+            <a class="smedia" href="https://www.instagram.com/im_aravind._/"><img src="ins.jpeg"
+                    class="ins">instagram</a>
+            <a class="smedia" href="https://www.linkedin.com/in/induri-aravind-53bb26261"><img src="lin.png"
+                    class="lin">linkedin</a>
+            <p>Gmail:chintuaravind@gmail.com</p>
+
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
